@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.whole-background{
+    background-color:#f5f0f1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.page-element-background{
+   background-color: #f7cecb;
+   width: 210px;
+   padding: 5px;
+   padding-left: 12px;
+   border-left-style: solid;
+   border-left-width: 6px;
+   border-left-color: red;
+   border-radius:5px;
+}
+.table-alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.graph-table-content{
+    font-size: 8px;
+}
+.down-arrow{
+    height: 10px;
+}
+.university_image{
+    height: 40px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.column-align{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.menu-logo{
+    height: 28px;
+    width: 28px;
+}
+.candidate-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.candidate-mail{
+    font-size: 13px;
+}
+.notification_profile_alignment{
+    float: right;
+}
+.menu-items-background{
+    background-color:#fae6ec;
+    border-style: solid;
+    padding: 8px;
+    border-width: 0px 0px 0px 6px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    padding-left: 20px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.white-background{
+    background-color: white;
+    width: 280px;
+    height: 100vh;
+}
+.logout-icon-text-alignment{
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+.search-box{
+   border-style: solid;
+   border-width: 1px;
+   border-color: #dedcdc;
+   width: 500px;
+   color: #ebebeb;
+   margin-left: 27px;
+   margin-top: 17px;
+   padding-left: 20px;
+   font-size: 12px;
+   height: 37px;
+}
+.search_box_button{
+    background-color: #E4042C;
+    border-width: 0px;
+    border-radius: 2px;
+    margin-top: 17px;
+    text-align: center;
+    height: 37px;
+    width: 60px;
+}
+.search_box_icon{
+    height: 15px;
+    width: 15px;
+}
+.notification-alignment{
+    background-color: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+.notification-logo{
+    height: 18px;
+    width: 18px;
+}
+.notification-count{
+    color: white;
+    background-color: #E4042C;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 50%;
+    position: absolute;
+    width: 15px;
+    left: 16px;
+    top: -1px;
+}
+.profile-logo{
+    height: 38px;
+    width: 38px;
+    margin-left: 30px;
+}
+.semester_selection_card{
+    background-color: #E4042C;
+    padding-left: 28px;
+    padding-top: 11px;
+    height: 35px;
+    width: 990px;
+    border-radius:4px;
+    margin-left: 26px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap:27px;
+}
+.semester-card-headings{
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+}
+.underline{
+    width: 10px;
+    height: 3px;
+    color: white;
+}
+.attendance-graph-card{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DFDFDF;
+    border-radius: 4px;
+}
+.graph-table-upper-text{
+    font-size: 14px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+.graph-table{
+    background-image: url("../assets/Rectangle\ 29.svg");
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 608px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.graph-table-heading{
+    font-size: 13px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.graph_card{
+    position: absolute;
+    z-index: 10;
+    left: 392px;
+    top: 217px;
+}
+.graph_card_text-1{
+    position: absolute;
+    z-index: 12;
+    left: 415px;
+    top: 235px;
+    font-size: 11px;
+}
+.graph_card_text-2{
+    position: absolute;
+    z-index: 12;
+    left: 415px;
+    top: 255px;
+    font-size: 11px;
+}
+.arrow-image{
+    width: 350px;
+    position: absolute;
+    z-index: 10;
+    left: 100px;
+    top: 110px;
+}
+.graph-table-text{
+    font-size: 10px;
+}
+.graph-image{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+.graph-table-line{
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.graph-table-months-line{
+    width:550px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.graph-months-text{
+    font-size: 12px;
+    color: black;
+}
+.classes-attended-text{
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    background-image: url("../assets/Rectangle\ 29.svg");
+    width:135px;
+    height: fit-content;
+    padding: 8px;
+    position: relative;
+    margin-left: 25px;
+}
+.classes-atended-count{
+    color: #045EE4;
+    font-size: 30px;
+    font-weight: bold;
+}
+.classes-atended-count-2{
+    color: #03856B;
+    font-size: 30px;
+    font-weight: bold;
+}
+.classes-atended-count-3{
+    color: #8A9F00;
+    font-size: 30px;
+    font-weight: bold;
+}
+.classes-atended-count-4{
+    color: #D54404;
+    font-size: 30px;
+    font-weight: bold;
+}
+.attendance-card-id-text{
+    color: black;
+    font-size: 9px;
+    font-weight: 700;
+    margin: 0px;
+}
+.attendance-card-course-name{
+    color: #696969;
+    font-size: 7px;
+    margin: 0px;
+}
+.attendance-card-direct-link-background{
+    background-color: #fab1ba;
+    height: 12px;
+    width: 23px;
+    text-align: center;
+    padding-bottom: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top:83px;
+    right: 2px;
+}
+.attendance-card-redirect-link{
+    height: 10px;
+    width: 10px;
+}
+.classes-card{
+    background-color: white;
+    padding: 10px;
+}
+.classes-update-card{
+    background-image: url("../assets/Rectangle\ 29.svg");
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 340px;
+}
+.classes-update-card-text{
+    color: #000000;
+    font-size: 11px;
+}
+.class-availability-text{
+    color: #000000;
+    font-size: 9px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.divider {
+    width: 1px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: red;
+    margin-left: 12px;
+}
+.classes-underline {
+    margin: 0px;
+    border: none;
+    border-top: 1px solid black;
+}
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.arrow-button {
+    background-color: #f8f8f8;
+    border: none;
+    color: #ff0000;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+.date-display {
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.arrow-button:hover {
+    background-color: #e8e8e8;
+}
+.class-details-card{
+    background-color: #deeafc;
+    border-radius: 2px;
+    padding:0px;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: #045EE4;
+}
+.class-details-timing-content{
+    font-size: 10px;
+    font-weight: 400;
+}
+.class-id-number{
+    font-size: 10px;
+    font-weight: 600;
+}
+.class-name{
+    font-size: 9px;
+    font-weight: 500;
+}
+.platform-content{
+    font-size: 8px;
+    font-weight: 400;
+}
+.class-details-card-button{
+    height: 17px;
+    width: 40px;
+    font-size: 8px;
+    text-align: center;
+    border-width: 0px;
+    border-radius: 1px;
+}
+.custom-primary-button{
+    height: 17px;
+    width: 40px;
+    font-size: 8px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 1px;
+    color: #045EE4;
+    border-style: solid;
+    border-color: #045EE4;
+    background-color: #deeafc;
+}
+.class-details-card-2{
+    background-color:#f5fcf7;
+    border-radius: 2px;
+    padding: 0px;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color:#114f22;
+}
+.custom-success-button{
+    height: 17px;
+    width: 40px;
+    font-size: 8px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 1px;
+    color:#509163;
+    border-style: solid;
+    border-color: #509163;
+    background-color:#e9f5ec;
+}
+.certification-card{
+    background-image: url("../assets/Rectangle\ 29.svg");
+    margin:8px;
+    height: 70px;
+    width: 343px;
+}
+.certification-card-heading{
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.certification-card-content{
+    font-size: 8px;
+    width: 190px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.certification-card-button{
+    background-color: #E4042C;
+    color: white;
+    text-align: center;
+    border-width: 0px;
+    border-radius:2px;
+    font-size: 9px;
+    height: 20px;
+    width: 75px;
+    margin-top: 35px;
+}
+.rules-card{
+    background-image: url("../assets/Rectangle\ 29.svg");
+    padding: 6px;
+    width: 340px;
+    height: 90px;
+    margin-left: 10px;
+}
+.rules-card-heading{
+    font-size: 12px;
+    font-weight: 500;
+}
+.rules-card-content{
+    font-size: 9px;
+    margin: 2px;
+    margin-top: 5px;
+}
